@@ -64,4 +64,8 @@
         <name>FruitsImpExpApp</name>
         <type>CustomApplication</type>
     </appMenuItems>
+    <appMenuItems>
+        <name>Dummy</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
 </AppMenu>
