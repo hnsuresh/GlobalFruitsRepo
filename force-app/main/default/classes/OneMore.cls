@@ -6,9 +6,12 @@ public with sharing class OneMore {
         return accList;
     }
 
+
      public static List<Account> getAllAccounts(){
         List<Account> accList = [SELECT Id,Name,Type 
                                   FROM Account ];
         return accList;
     }
+
+
 }
