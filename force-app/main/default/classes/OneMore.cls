@@ -15,7 +15,7 @@ public with sharing class OneMore {
 
     public static List<Account> getFewAccounts(){
         List<Account> accList = [SELECT Id,Name,Type 
-                                  FROM Account LIMI 5 ];
+                                  FROM Account LIMIT 5 ];
         return accList;
     }
 
